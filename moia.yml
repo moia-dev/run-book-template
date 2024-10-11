@@ -3,4 +3,5 @@
 # The moia.yml file is consumed by tools built by Platform Teams to maintain
 # consistent mappings between teams and repositories, supporting the efficient
 # management of notifications, alerts, and critical updates.
-owners: []
+owners:
+  - platform-engineering
