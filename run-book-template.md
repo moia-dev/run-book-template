@@ -92,7 +92,9 @@ _This is usually a redeployment of the infrastructure & application. In most bas
 
 > To recover the application after a disaster case, execute the deployment steps as defined in the `Deployment` section, both for
 > infrastructure and application code. In case it is needed, restore data from the most recent backup, as described above in the
-> `System BAckup and Restore / Restoreprocedure` section.
+> `System backup and restore / Restore procedures` section.
+>
+> This recovery plan is verified at least once a year in December, and will be updated as needed. 
 
 ### Deployment
 
