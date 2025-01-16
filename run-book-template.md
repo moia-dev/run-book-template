@@ -94,7 +94,8 @@ _This is usually a redeployment of the infrastructure & application. In most bas
 > infrastructure and application code. In case it is needed, restore data from the most recent backup, as described above in the
 > `System backup and restore / Restore procedures` section.
 >
-> This recovery plan is verified at least once a year in December, and will be updated as needed. 
+> This recovery plan is verified at least once a year in December, and will be updated as needed. The last review and the last
+> verification date is documented at the bottom of this file.
 
 ### Deployment
 
@@ -108,3 +109,7 @@ _(e.g. We use GoCD to coordinate deployments, triggering a Chef run pulling RPMs
 
 _(e.g. Use a combination of the `/health` endpoint checks and the `abc-*.sh` scripts for diagnosing typical problems)_
 
+## Review and verification status
+
+Last reviewed: _date, e.g. 2024-12-15_ by _documentation owner_
+Last verified:  _date, e.g. 2024-12-15_ by _verifier_
