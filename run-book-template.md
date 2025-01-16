@@ -112,4 +112,5 @@ _(e.g. Use a combination of the `/health` endpoint checks and the `abc-*.sh` scr
 ## Review and verification status
 
 Last reviewed: _date, e.g. 2024-12-15_ by _documentation owner_
+
 Last verified:  _date, e.g. 2024-12-15_ by _verifier_
