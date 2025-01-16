@@ -50,7 +50,7 @@ _(e.g. CloudInit bootstraps the installation of Puppet - Puppet then drives all 
 
 _(e.g. Secrets are managed with Hashicorp Vault with 3 shards for the master key)_
 
-## System backup and restore
+## System backup and restore (Backup Management)
 
 ### Backup requirements
 
@@ -84,6 +84,19 @@ _(e.g. Usual VM stats (CPU, disk, threads, etc.) + around 200 application techni
 
 ## Operational tasks
 
+### Application Recovery Plan
+
+> How is the application restored in case of disaster?
+
+_This is usually a redeployment of the infrastructure & application. In most bases, it could be something generic like this_
+
+> To recover the application after a disaster case, execute the deployment steps as defined in the `Deployment` section, both for
+> infrastructure and application code. In case it is needed, restore data from the most recent backup, as described above in the
+> `System backup and restore / Restore procedures` section.
+>
+> This recovery plan is verified at least once a year in December, and will be updated as needed. The last review and the last
+> verification date is documented at the bottom of this file.
+
 ### Deployment
 
 > How is the software deployed? How does roll-back happen?
@@ -96,3 +109,8 @@ _(e.g. We use GoCD to coordinate deployments, triggering a Chef run pulling RPMs
 
 _(e.g. Use a combination of the `/health` endpoint checks and the `abc-*.sh` scripts for diagnosing typical problems)_
 
+## Review and verification status
+
+Last reviewed: _date, e.g. 2024-12-15_ by _documentation owner_
+
+Last verified:  _date, e.g. 2024-12-15_ by _verifier_
